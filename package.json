@@ -40,11 +40,15 @@
     "webpack-dev-server": "1.14.1"
   },
   "jest": {
-    "scriptPreprocessor": "<rootDir>/preprocessor.js"
-  },
-  "unmockedModulePathPatterns": [
-    "<rootDir>/node_modules/react",
-    "<rootDir>/node_modules/react-dom",
-    "<rootDir>/node_modules/react-addons-test-utils"
-  ]
+    "scriptPreprocessor": "<rootDir>/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/react-dom",
+      "<rootDir>/node_modules/react-addons-test-utils",
+      "<rootDir>/node_modules/fbjs"
+    ],
+    "modulePathIgnorePatterns": [
+      "./node_modules/"
+    ]
+  }
 }

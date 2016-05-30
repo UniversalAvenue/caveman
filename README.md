@@ -13,11 +13,10 @@ Make sure to create "reuseable" components with a well crafted api.
 
 The components should work as expected both in a desktop and mobile environment. 
 
-We don't need to tell you how a button should be more than just an onClick
-event. 
-
 To be clear, we are asking you to reinvent the wheel here. Although it might be redundant
 in any other scenario, we are interested in how you construct that wheel, spokes and all. 
+
+In terms of specification, we are leaving out *a lot*. We want you to flesh out the specification yourself, think of it as half the assignment.
 
 ## Tips
 
